@@ -195,14 +195,14 @@ If you like or are using this project to learn or start your solution, please gi
 
     - [Quasar](https://quasar-framework.org/)
 
-19. Mobile
+19. Mobile Application Development
 
     - [Quasar](https://quasar-framework.org/)
     - [Vue Native](https://github.com/GeekyAnts/vue-native-core/)
     - [Nativescript Vue](https://nativescript-vue.org/)
     - [Weex](https://weex.incubator.apache.org/)
 
-20. Desktop
+20. Desktop Application Development
 
     - [Quasar](https://quasar-framework.org/)
     - [Electron](https://electronjs.org/)
