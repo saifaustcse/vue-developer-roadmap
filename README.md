@@ -77,7 +77,6 @@ If you like or are using this project to learn or start your solution, please gi
 
     - [Vue Router](https://router.vuejs.org/)
     - [Router5](https://router5.js.org/)
-    - [vue-component-router](https://github.com/blocka/vue-component-router)
 
 7. Type Checkers
 
@@ -113,7 +112,6 @@ If you like or are using this project to learn or start your solution, please gi
     - CSS Frameworks
         - [Bootstrap](https://getbootstrap.com/)
         - [Materialize](https://materializecss.com/)
-        - [Material Design Lite](https://getmdl.io/)
         - [Bulma](https://bulma.io/)
         - [Semantic UI](https://semantic-ui.com/)
     - CSS in JS
@@ -143,7 +141,7 @@ If you like or are using this project to learn or start your solution, please gi
         - [SuperAgent](https://visionmedia.github.io/superagent/)
         - [axios](https://github.com/axios/axios)
     - GraphQL
-        - [Apollo](https://www.apollographql.com/docs/react/)
+        - [Apollo](https://apollo.vuejs.org/)
         - [Relay](https://facebook.github.io/relay/)
         - [urql](https://github.com/FormidableLabs/urql)
 
@@ -157,7 +155,12 @@ If you like or are using this project to learn or start your solution, please gi
     - [ImmutableJS](https://facebook.github.io/immutable-js/)
     - [Ramda](https://ramdajs.com/)
 
-13. Testing
+13. Coding style
+
+    - [TSLint](https://palantir.github.io/tslint/)
+    - [Prettier](https://prettier.io/)
+
+14. Testing
 
     - Unit Testing
         - [Jest](https://facebook.github.io/jest/)
@@ -176,26 +179,30 @@ If you like or are using this project to learn or start your solution, please gi
     - Integration Testing
         - [Karma](https://karma-runner.github.io/)
 
-14. Internationalization
+15. Internationalization
 
     - [vue-i18n](https://kazupon.github.io/vue-i18n/)
 
-15. Server Side Rendering
+16. Server Side Rendering
 
     - [Nuxt](https://nuxtjs.org/)
 
-16. Static Site Generator
+17. Static Site Generator
 
     - [VuePress](https://vuepress.vuejs.org/)
 
-17. Mobile
+18. Progressive Web Apps
+
+    - [Quasar](https://quasar-framework.org/)
+
+19. Mobile
 
     - [Quasar](https://quasar-framework.org/)
     - [Vue Native](https://github.com/GeekyAnts/vue-native-core/)
     - [Nativescript Vue](https://nativescript-vue.org/)
     - [Weex](https://weex.incubator.apache.org/)
 
-18. Desktop
+20. Desktop
 
     - [Quasar](https://quasar-framework.org/)
     - [Electron](https://electronjs.org/)
