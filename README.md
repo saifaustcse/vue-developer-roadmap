@@ -1,216 +1,289 @@
 # Vue Developer Roadmap
 
-> Roadmap to becoming a Vue Developer in 2024:
+> A practical, developer-focused **roadmap** to becoming a **Vue Developer** in 2026 — covering the essential tools, libraries, and concepts you need along the way.
 
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become a Vue developer. I made this chart as a tip for everyone who asks me, "What should I learn next as a Vue developer?"
 
-## Disclaimer
+## Table of Contents
+
+| No. | Topic                                                                  |
+| --- | ---------------------------------------------------------------------- |
+| 1   | [Disclaimer](#1-disclaimer)                                            |
+| 2   | [Roadmap](#2-roadmap)                                                  |
+| 3   | [IDEs](#3-ides)                                                        |
+| 4   | [HTML](#4-html)                                                        |
+| 5   | [CSS](#5-css)                                                          |
+| 6   | [JavaScript](#6-javascript)                                            |
+| 7   | [Vue](#7-vue)                                                          |
+| 8   | [Routing](#8-routing)                                                  |
+| 9   | [Build Tools](#9-build-tools)                                          |
+| 10  | [UI Design](#10-ui-design)                                             |
+| 11  | [API Clients](#11-api-clients)                                         |
+| 12  | [Fundamental 3rd Parties](#12-fundamental-3rd-parties)                 |
+| 13  | [State Management](#13-state-management)                               |
+| 14  | [Architecture](#14-architecture)                                       |
+| 15  | [Coding Style](#15-coding-style)                                       |
+| 16  | [Utility Libraries](#16-utility-libraries)                             |
+| 17  | [Testing](#17-testing)                                                 |
+| 18  | [Internationalization](#18-internationalization)                       |
+| 19  | [Progressive Web Apps](#19-progressive-web-apps)                       |
+| 20  | [Server-Side Rendering](#20-server-side-rendering)                     |
+| 21  | [Mobile Application Development](#21-mobile-application-development)   |
+| 22  | [Desktop Application Development](#22-desktop-application-development) |
+
+## 1. Disclaimer
 
 > The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
 
-## Give a Star! :star:
+**[⬆ Back to Top](#table-of-contents)**
 
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+## 2. Roadmap
 
-## Roadmap
+<p align="center">
+    <img src="images/vue-developer-roadmap.png" alt="Vue Developer Roadmap">
+</p>
 
-![Roadmap](./images/vue-developer-roadmap.png)
+**[⬆ Back to Top](#table-of-contents)**
 
-## Resources
+## 3. IDEs
 
-1. IDEs
+| IDE                                                          | Short Description                                   | Pricing      |
+| ------------------------------------------------------------ | --------------------------------------------------- | ------------ |
+| [Visual Studio Code](https://code.visualstudio.com/Download) | Lightweight and highly extensible code editor.      | **Free**     |
+| [WebStorm](https://www.jetbrains.com/webstorm/)              | Powerful IDE for modern JavaScript development.     | **Paid**     |
+| [Bolt](https://bolt.new/)                                    | AI-powered tool for building web applications.      | **Freemium** |
+| [Cursor](https://www.cursor.com/)                            | AI-powered code editor with smart assistance.       | **Freemium** |
+| [Sublime Text](https://www.sublimetext.com/)                 | Fast and customizable lightweight editor.           | **Paid**     |
+| [Atom](https://atom.io/)                                     | Open-source and highly customizable code editor.    | **Free**     |
+| [Brackets](http://brackets.io/)                              | Frontend-focused editor with live preview.          | **Free**     |
+| [Eclipse](https://www.eclipse.org/)                          | Extensible IDE for Java and enterprise development. | **Free**     |
 
-   - [visualstudio](https://visualstudio.microsoft.com/downloads/)
-   - [visualstudioCode](https://code.visualstudio.com/Download)
+**[⬆ Back to Top](#table-of-contents)**
 
-2. HTML
+## 4. HTML
 
-   - [w3schools](https://www.w3schools.com/html/) HTML Tutorial
-   - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) HTML: HyperText Markup Language
+- [w3schools](https://www.w3schools.com/html/) HTML Tutorial
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) HTML: HyperText Markup Language
 
-3. CSS
+**[⬆ Back to Top](#table-of-contents)**
 
-   - [w3schools](https://www.w3schools.com/css/) CSS Tutorial
-   - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) CSS: Cascading Style Sheets
-   - [fontawesome](https://fontawesome.com/) Official website
-   - [w3schools](https://www.w3schools.com/icons/icons_reference.asp) Icons Reference
+## 5. CSS
 
-4. JavaScript
+- [w3schools](https://www.w3schools.com/css/) CSS Tutorial
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) CSS: Cascading Style Sheets
+- [fontawesome](https://fontawesome.com/) Official website
+- [w3schools](https://www.w3schools.com/icons/icons_reference.asp) Icons Reference
 
-   _Basic_
+**[⬆ Back to Top](#table-of-contents)**
 
-   - [w3schools](https://www.w3schools.com/js/default.asp) JavaScript Tutorial
-   - [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript) JavaScript
-   - [javascript.info](https://javascript.info/) The Modern JavaScript Tutorial
-   - [htmlcheatsheet](https://htmlcheatsheet.com/js/) JS CheatSheet
+## 6. JavaScript
 
-   _es6_
+_Basic_
 
-   - [exploringjs](https://exploringjs.com/es6/index.html) Exploring ES6
-   - [es6-features](http://es6-features.org/#Constants) ECMAScript 6 — New Features: Overview & Comparison
-   - [jsfeatures](https://jsfeatures.in) jsfeatures
-   - [babeljs](https://babeljs.io/docs/en/learn) Learn ES2015
-   - [github](https://github.com/lukehoban/es6features) ECMAScript 6
-   - [github](https://github.com/sudheerj/ECMAScript-features) ECMAScript 6
+- [w3schools](https://www.w3schools.com/js/default.asp) JavaScript Tutorial
+- [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript) JavaScript
+- [javascript.info](https://javascript.info/) The Modern JavaScript Tutorial
+- [htmlcheatsheet](https://htmlcheatsheet.com/js/) JS CheatSheet
 
-   _Style Guide_
+_ES6_
 
-   - [github](https://github.com/airbnb/javascript) Airbnb JavaScript Style Guide
-   - [github](https://github.com/ryanmcdermott/clean-code-javascript) clean-code-javascript
+- [exploringjs](https://exploringjs.com/es6/index.html) Exploring ES6
+- [compat-table](https://compat-table.github.io/compat-table/es6/) ECMAScript 6 compatibility table
+- [babeljs](https://babeljs.io/docs/en/learn) Learn ES2015
+- [github](https://github.com/lukehoban/es6features) ECMAScript 6
+- [github](https://github.com/sudheerj/ECMAScript-features) ECMAScript 6
 
-   _playground_
+_Style Guide_
 
-   - [js-array-playground](https://js-array-playground.firebaseapp.com/) JavaScript Array Playground
-   - [jsfiddle](https://jsfiddle.net/)
-   - [plnkr](https://plnkr.co/)
-   - [jsbin](https://jsbin.com/?html,output)
-   - [codepen](https://codepen.io/pen/)
-   - [stackblitz](https://stackblitz.com/)
+- [github](https://github.com/airbnb/javascript) Airbnb JavaScript Style Guide
+- [github](https://github.com/ryanmcdermott/clean-code-javascript) clean-code-javascript
 
-5. Vue
+_Playground_
 
-   - [official website](https://vuejs.org/)
-   - [View forms](https://vuejs.org/v2/guide/forms.html)
-   - [View components](https://vuejs.org/v2/guide/components.html)
+- [js-array-playground](https://js-array-playground.firebaseapp.com/) JavaScript Array Playground
+- [jsfiddle](https://jsfiddle.net/)
+- [plnkr](https://plnkr.co/)
+- [jsbin](https://jsbin.com/?html,output)
+- [codepen](https://codepen.io/pen/)
+- [stackblitz](https://stackblitz.com/)
 
-6. Routing
+**[⬆ Back to Top](#table-of-contents)**
 
-   - [Vue Router](https://router.vuejs.org/)
-   - [Router5](https://router5.js.org/)
+## 7. Vue
 
-7. Type Checkers
+- [Official website](https://vuejs.org/)
+- [View forms](https://vuejs.org/v2/guide/forms.html)
+- [View components](https://vuejs.org/v2/guide/components.html)
+  **[⬆ Back to Top](#table-of-contents)**
 
-   - [TypeScript](https://www.typescriptlang.org/)
-   - [TypeScript](https://vuejs.org/v2/guide/typescript.html)
-   - [Flow](https://flow.org/en/)
+## 8. Routing
 
-8. Build Tools
+- [Vue Router](https://router.vuejs.org/)
+- [Router5](https://router5.js.org/)
 
-   - Package Managers
-     - [npm](https://www.npmjs.com/)
-     - [yarn](https://yarnpkg.com/lang/en/)
-     - [pnpm](https://pnpm.js.org/)
-   - Module Bundlers
-     - [vue-cli](https://cli.vuejs.org/)
-     - [Webpack](https://webpack.js.org/)
-     - [Bazel](https://bazel.build/)
-     - [Rollup](https://rollupjs.org/guide/en)
-     - [Browserify](http://browserify.org/)
-     - [FuseBox](https://fuse-box.org/)
-   - Task Runners
-     - [npm scripts](https://docs.npmjs.com/misc/scripts)
-     - [gulp](https://gulpjs.com/)
-     - [grunt](https://gruntjs.com/)
+**[⬆ Back to Top](#table-of-contents)**
 
-9. UI Design
+## 9. Build Tools
 
-   - CSS Preprocessor
-     - [Sass/CSS](https://sass-lang.com/)
-     - [PostCSS](https://postcss.org/)
-     - [Less](http://lesscss.org/)
-     - [Stylus](http://stylus-lang.com/)
-   - CSS Frameworks
-     - [Bootstrap](https://getbootstrap.com/)
-     - [Materialize](https://materializecss.com/)
-     - [Bulma](https://bulma.io/)
-     - [Semantic UI](https://semantic-ui.com/)
-   - CSS in JS
-     - [Styled Components](https://www.styled-components.com/)
-     - [Radium](https://formidable.com/open-source/radium/)
-     - [Emotion](https://emotion.sh/)
-     - [JSS](http://cssinjs.org/)
-     - [Aphrodite](https://github.com/Khan/aphrodite)
-   - Component libraries
-     - [Quasar](https://quasar-framework.org/)
-     - [Vuetify](https://vuetifyjs.com/en/)
-     - [iView](https://www.iviewui.com/)
-     - [Vuesax](https://lusaxweb.github.io/vuesax/)
-     - [bootstrap-vue](https://bootstrap-vue.js.org/)
+- Package Managers
+  - [npm](https://www.npmjs.com/)
+  - [yarn](https://yarnpkg.com/)
+  - [pnpm](https://pnpm.io/)
+- Module Bundlers
+  - [Vite](https://vitejs.dev/) — official build tool for Vue
+  - [create-vue](https://github.com/vuejs/create-vue) — official scaffolding tool (successor of vue-cli)
+  - [Webpack](https://webpack.js.org/)
+  - [esbuild](https://esbuild.github.io/)
+  - [Rollup](https://rollupjs.org/)
+  - [Bazel](https://bazel.build/)
+- Task Runners
+  - [npm scripts](https://docs.npmjs.com/misc/scripts)
+  - [gulp](https://gulpjs.com/)
+  - [grunt](https://gruntjs.com/)
 
-10. State Management
+**[⬆ Back to Top](#table-of-contents)**
 
-    - [Component state](https://vuejs.org/v2/guide/state-management.html)
-    - [Vuex](https://vuex.vuejs.org/)
-      - Data persistence
-        - [vue-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
+## 10. UI Design
 
-11. API Clients
+- CSS Preprocessor
+  - [Sass/CSS](https://sass-lang.com/)
+  - [PostCSS](https://postcss.org/)
+  - [Less](http://lesscss.org/)
+  - [Stylus](http://stylus-lang.com/)
+- CSS Frameworks
+  - [Bootstrap](https://getbootstrap.com/)
+  - [Materialize](https://materializecss.com/)
+  - [Bulma](https://bulma.io/)
+  - [Semantic UI](https://semantic-ui.com/)
+- Utility-First CSS
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [UnoCSS](https://unocss.dev/)
+- Component Libraries
+  - [Vuetify](https://vuetifyjs.com/) — Material Design component framework for Vue
+  - [Quasar](https://quasar.dev/) — high-performance Vue framework for web, mobile, and desktop
+  - [PrimeVue](https://primevue.org/) — rich set of open source UI components for Vue
+  - [Element Plus](https://element-plus.org/) — Vue 3 based component library
+  - [Naive UI](https://www.naiveui.com/) — fully typed Vue 3 component library
 
-    - REST
-      - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-      - [SuperAgent](https://visionmedia.github.io/superagent/)
-      - [axios](https://github.com/axios/axios)
-    - GraphQL
-      - [Apollo](https://apollo.vuejs.org/)
-      - [Relay](https://facebook.github.io/relay/)
-      - [urql](https://github.com/FormidableLabs/urql)
+**[⬆ Back to Top](#table-of-contents)**
 
-12. Utility Libraries
+## 11. API Clients
 
-    - [Lodash](https://lodash.com/)
-    - [Moment](https://momentjs.com/)
-    - [classnames](https://github.com/JedWatson/classnames)
-    - [Numeral](http://numeraljs.com/)
-    - [RxJS](http://reactivex.io/)
-    - [ImmutableJS](https://facebook.github.io/immutable-js/)
-    - [Ramda](https://ramdajs.com/)
+- REST
+  - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+  - [SuperAgent](https://visionmedia.github.io/superagent/)
+  - [axios](https://github.com/axios/axios)
+- GraphQL
+  - [Apollo](https://v4.apollo.vuejs.org/) — GraphQL client for Vue 3
+  - [urql](https://github.com/FormidableLabs/urql)
+  - [Villus](https://villus.dev/) — small and fast GraphQL client for Vue
 
-13. Coding style
+**[⬆ Back to Top](#table-of-contents)**
 
-    - [TSLint](https://palantir.github.io/tslint/)
-    - [Prettier](https://prettier.io/)
+## 12. Fundamental 3rd Parties
 
-14. Testing
+- TypeScript
+  - ["TypeScript Deep Dive"](https://github.com/basarat/typescript-book)
+  - [Typescript Docs](https://www.typescriptlang.org/docs/)
+  - [TypeScript with Vue](https://vuejs.org/guide/typescript/)
+- VueUse
+  - [VueUse](https://vueuse.org/) — collection of essential Vue composition utilities
+  - [VueUse playground](https://play.vueuse.org/)
 
-    - Unit Testing
-      - [Jest](https://facebook.github.io/jest/)
-      - [vue-test-utils](https://github.com/vuejs/vue-test-utils/)
-      - [Sinon](http://sinonjs.org/)
-      - [Mocha](https://mochajs.org/)
-      - [Chai](http://www.chaijs.com/)
-      - [AVA](https://github.com/avajs/ava)
-      - [Tape](https://github.com/substack/tape)
-    - End to End Testing
-      - [Nightwatch](http://nightwatchjs.org/)
-      - [Selenium](https://www.seleniumhq.org/)
-      - [Webdriver](http://webdriver.io/)
-      - [Puppeteer](https://pptr.dev/)
-      - [Cucumber.js](https://github.com/cucumber/cucumber-js)
-    - Integration Testing
-      - [Karma](https://karma-runner.github.io/)
+**[⬆ Back to Top](#table-of-contents)**
 
-15. Internationalization
+## 13. State Management
 
-    - [vue-i18n](https://kazupon.github.io/vue-i18n/)
+- [Pinia](https://pinia.vuejs.org/) — official state management library for Vue
+- [pinia-plugin-persistedstate](https://prazdevs.github.io/pinia-plugin-persistedstate/)
+- [Vuex](https://vuex.vuejs.org/) (legacy — Pinia is the official successor)
 
-16. Server Side Rendering
+**[⬆ Back to Top](#table-of-contents)**
 
-    - [Nuxt](https://nuxtjs.org/)
+## 14. Architecture
 
-17. Static Site Generator
+- [Composables](https://vuejs.org/guide/reusability/composables.html)
+- [Custom Directives](https://vuejs.org/guide/reusability/directives.html)
 
-    - [VuePress](https://vuepress.vuejs.org/)
+**[⬆ Back to Top](#table-of-contents)**
 
-18. Progressive Web Apps
+## 15. Coding Style
 
-    - [Quasar](https://quasar-framework.org/)
+- [Vue Styleguide](https://vuejs.org/style-guide/)
+- [ESLint](https://eslint.org/) with [typescript-eslint](https://typescript-eslint.io/) (replaces the deprecated TSLint)
+- [Prettier](https://prettier.io/)
 
-19. Mobile Application Development
+**[⬆ Back to Top](#table-of-contents)**
 
-    - [Quasar](https://quasar-framework.org/)
-    - [Vue Native](https://github.com/GeekyAnts/vue-native-core/)
-    - [Nativescript Vue](https://nativescript-vue.org/)
-    - [Weex](https://weex.incubator.apache.org/)
+## 16. Utility Libraries
 
-20. Desktop Application Development
+- [Lodash](https://lodash.com/)
+- [Moment](https://momentjs.com/) (maintenance mode – consider [date-fns](https://date-fns.org/), [Day.js](https://day.js.org/), or [Luxon](https://moment.github.io/luxon/))
+- [classnames](https://github.com/JedWatson/classnames)
+- [Numeral](http://numeraljs.com/)
+- [ImmutableJS](https://facebook.github.io/immutable-js/)
+- [Ramda](https://ramdajs.com/)
 
-    - [Quasar](https://quasar-framework.org/)
-    - [Electron](https://electronjs.org/)
-    - [NW.js](https://nwjs.io/)
-    - [Vuido](https://vuido.mimec.org/)
+**[⬆ Back to Top](#table-of-contents)**
 
-## Contribution
+## 17. Testing
 
-If you want to contribute to this project to make it more helpful for other Vue developers, your help is very welcome!
+- Unit Testing
+  - [Vitest](https://vitest.dev/) — recommended unit testing framework for Vue
+  - [Jest](https://jestjs.io/)
+  - [Vue Test Utils](https://test-utils.vuejs.org/) — official testing utilities for Vue
+- E2E Testing
+  - [Cypress](https://www.cypress.io/)
+  - [Playwright](https://playwright.dev/)
 
-Just file an issue, better yet: submit a PR! 🙂
+> Note: [Karma](https://karma-runner.github.io/) reached end-of-life in August 2023 — prefer Vitest for unit testing and Cypress or Playwright for E2E testing.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## 18. Internationalization
+
+- [vue-i18n](https://vue-i18n.intlify.dev/)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## 19. Progressive Web Apps
+
+- [Vite PWA](https://vite-pwa-org.netlify.app/) — zero-config PWA plugin for Vite
+- [Workbox](https://developer.chrome.com/docs/workbox/)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## 20. Server-Side Rendering
+
+- [Nuxt](https://nuxt.com/) — full-stack Vue framework with SSR/SSG support
+- [SSR guide](https://vuejs.org/guide/scaling-up/ssr.html) — built-in server-side rendering with hydration
+- [VitePress](https://vitepress.dev/) — static site generator (successor of VuePress)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## 21. Mobile Application Development
+
+- [Ionic Vue](https://ionicframework.com/docs/vue)
+- [NativeScript-Vue](https://nativescript-vue.org/)
+- [Quasar](https://quasar.dev/)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## 22. Desktop Application Development
+
+- [Electron](https://www.electronjs.org/)
+- [Tauri](https://tauri.app/)
+- [Quasar](https://quasar.dev/)
+- [NW.js](https://nwjs.io/)
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Author
+
+**Md. Saiful Islam**
+_Microsoft Certified Solutions Developer (MCSD) – Programming in C#_
+
+**GitHub:** [@saifaustcse](https://github.com/saifaustcse)
+**LinkedIn:** [Md. Saiful Islam](https://www.linkedin.com/in/saif-aust-cse/)
+
+If you find this roadmap useful, please give :star:. Your support is appreciated!
